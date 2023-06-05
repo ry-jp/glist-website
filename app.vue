@@ -26,7 +26,7 @@ const underlayCick = () => {
       <div v-if="isShowingCart || isShowingMobileMenu" class="bg-black opacity-25 inset-0 z-40 fixed" @click="underlayCick"></div>
     </Transition>
 
-    <AppFooter />
+    <!-- <AppFooter /> -->
   </div>
 </template>
 
@@ -34,7 +34,7 @@ const underlayCick = () => {
 html,
 body {
   /* @apply bg-gradient-to-t to-white from-gray-50 text-gray-900; */
-  @apply bg-gray-100 text-gray-900;
+  @apply bg-black text-white;
   scroll-behavior: smooth;
 }
 

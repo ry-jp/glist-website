@@ -6,8 +6,8 @@ const props = defineProps({
 });
 
 const fallbackImage = '/images/placeholder.jpg';
-const imgWidth = 1280;
-const imgHeight = 1380;
+const imgWidth = 400;
+const imgHeight = 500;
 
 // example: ?filter=pa_color[green,blue],pa_size[large]
 const filterQuery = ref(route.query.filter);
@@ -55,7 +55,7 @@ const colorVariableImage = computed(() => {
       format="webp" />
 
     <div class="p-2">
-      <StarRating :rating="node.averageRating" :count="node.reviewCount" />
+      <!-- <StarRating :rating="node.averageRating" :count="node.reviewCount" /> -->
       <h2 class="mb-2 font-light leading-tight">{{ node.name }}</h2>
       <ProductPrice class="text-sm" :sale-price="node.salePrice" :regular-price="node.regularPrice" />
     </div>

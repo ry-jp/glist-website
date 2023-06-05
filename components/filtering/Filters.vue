@@ -8,9 +8,9 @@ const globalProductAttributes = runtimeConfig?.public?.GLOBAL_PRODUCT_ATTRIBUTES
   <aside id="filters">
     <OrderByDropdown class="w-full block md:hidden" />
     <div class="divide-y space-y-8 mb-12 grid z-30 relative">
-      <PriceFilter />
+      <!-- <PriceFilter /> -->
       <CategoryFilter />
-      <div v-for="attribute in globalProductAttributes" :key="attribute.slug">
+      <!-- <div v-for="attribute in globalProductAttributes" :key="attribute.slug">
         <ColorFilter
           v-if="attribute.slug == 'pa_color' || attribute.slug == 'pa_colour'"
           :filter-slug="attribute.slug"
@@ -25,9 +25,9 @@ const globalProductAttributes = runtimeConfig?.public?.GLOBAL_PRODUCT_ATTRIBUTES
           :open="attribute.openByDefault"
           :show-count="attribute.showCount"
           :hide-empty="attribute.hideEmpty" />
-      </div>
+      </div> -->
       <!-- <OnSaleFilter /> -->
-      <StarRatingFilter />
+      <!-- <StarRatingFilter /> -->
       <ResetFiltersButton />
     </div>
   </aside>

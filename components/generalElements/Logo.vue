@@ -6,7 +6,7 @@ const logoUrl = runtimeConfig?.public?.LOGO || null;
 <template>
 <div class="flex flex-col">
   <NuxtLink to="/">
-    <img src="~/public/logo.svg" alt="GLISTUSA" class=" h-16 justify-center" />
+    <img src="~/public/logo.svg" alt="GLISTUSA" class="h-16 justify-center" />
     <div>
       <span class="text-white font-bold">GLISTUSA</span>
     </div>
