@@ -9,9 +9,10 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          light: '#AE7DDD',
-          DEFAULT: process.env.PRIMARY_COLOR || '#7F54B2',
-          dark: '#754fa3',
+          light: '#000000',
+          DEFAULT: process.env.PRIMARY_COLOR || '#000000',
+          dark: '#000000',
+          backgroundColor: '#000000',
         },
       },
       screens: {

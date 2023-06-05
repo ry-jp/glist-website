@@ -6,8 +6,8 @@ const props = defineProps({
 });
 
 const fallbackImage = '/images/placeholder.jpg';
-const imgWidth = 400;
-const imgHeight = 500;
+const imgWidth = 800;
+const imgHeight = 900;
 
 // example: ?filter=pa_color[green,blue],pa_size[large]
 const filterQuery = ref(route.query.filter);
